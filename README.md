@@ -12,11 +12,20 @@
 
 ## 仓库结构
 
-（随规范草案入库后更新）
+```
+specs/                  规范文档（按主题分目录，含 specVersion 与状态标识）
+  capability-model/     L0 设备能力模型（v0.1-draft.md 已入库，评审中）
+VERSIONING.md           版本与兼容性政策（最高纪律）
+rfcs/                   RFC 提案与决议记录
+docs/assets/            品牌资源
+```
 
 ## 读者导航
 
-（随规范草案入库后更新——目标：10 分钟读懂体系，找到自己的角色：设备厂商 / 平台接入者 / Skill 作者 / 提案人。）
+- **设备厂商/实现者**：从 `specs/capability-model/` 开始——你的设备如何描述自己的能力；
+- **平台接入者**（AI 平台、连接器作者）：L0 模型之后读 L1 协议绑定规范（起草中）；
+- **Skill 作者**：先读 L0 与 L1，Skill 格式规范见 [skills 仓库](https://github.com/Open-AIoT/skills)（规划中）；
+- **提案人**：读 VERSIONING.md 与 rfcs/，按 RFC 流程提交。
 
 ## 参与与提案
 
